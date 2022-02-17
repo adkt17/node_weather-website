@@ -7,6 +7,7 @@ const forecast = require('./utils/forecast')
 
 // const send = require('process')
 const app = express()
+const port = process.env.PORT || 3000
 
 // // console.log(__filename)
 // console.log(path.join(__dirname,'../public2'))
@@ -114,7 +115,7 @@ app.get('*',(rq,res)=>{
 
 
 //hosting part
-app.listen(3000,()=>{
-    console.log("server is up at http://localhost:3000/")
+app.listen(port,()=>{
+    console.log("server is up at "+ port)
 })
 
