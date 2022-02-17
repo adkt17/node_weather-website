@@ -1,0 +1,21 @@
+{
+  "name": "web-server2",
+  "version": "1.0.0",
+  "description": "CRUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SC"
+  ],
+  "author": "ME",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "node-fetch": "^3.2.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  }
+}
